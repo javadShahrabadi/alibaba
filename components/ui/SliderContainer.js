@@ -29,9 +29,9 @@ const AdsImg = [
 function SliderContainer() {
   const { width } = useWindowDimensions();
   return (
-    <div className="max-w-6xl mx-auto mt-8 h-[300px] px-3 xl:px-0">
+    <div className="max-w-6xl mx-auto mt-8 h-[300px] xl:px-0">
       <Swiper
-        spaceBetween={20}
+        spaceBetween={30}
         slidesPerView={width < 1000 ? 1 : 2}
         autoplay={{
           delay: 2500,

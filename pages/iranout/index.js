@@ -1,22 +1,21 @@
-import Layout from "@/components/layout/Layout";
 import Navigation from "@/components/layout/Navigation";
 import Header from "@/components/layout/Header";
+import Layout from "@/components/layout/Layout";
 import NavSearch from "@/components/layout/NavSearch";
-import SearchBox from "@/components/home-components/SearchBox";
-import Ads from "@/components/layout/Ads";
+import SearchBox from "@/components/iran-out/SearchBox";
 import SliderContainer from "@/components/ui/SliderContainer";
 import DownloadCard from "@/components/layout/DownloadCard";
-import FaQ from "@/components/home-components/FaQ";
-import InfoSection from "@/components/home-components/InfoSection";
+import FaQ from "@/components/iran-out/FaQ";
 import Footer from "@/components/layout/Footer";
-function HomePage() {
+
+import InfoSection from "@/components/iran-out/InfoSection";
+function IranOut() {
   return (
     <Layout>
       <Navigation />
       <Header />
       <NavSearch />
       <SearchBox />
-      <Ads />
       <SliderContainer />
       <DownloadCard />
       <FaQ />
@@ -25,4 +24,4 @@ function HomePage() {
     </Layout>
   );
 }
-export default HomePage;
+export default IranOut;

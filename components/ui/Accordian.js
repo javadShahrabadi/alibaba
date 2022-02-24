@@ -13,7 +13,7 @@ function Accordian(props) {
   return (
     <div
       className={`mt-3 max-w-6xl mx-auto bg-white rounded-xl shadow-sm border border-gray-100 px-10 cursor-pointer overflow-hidden py-5 hover__anime ${
-        show ? "h-[160px]" : "h-[70px]"
+        show ? "h-[190px]" : "h-[70px]"
       }`}
       onMouseEnter={() => setHoverControl(true)}
       onMouseLeave={() => setHoverControl(false)}

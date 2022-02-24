@@ -230,7 +230,7 @@ function SearchBox() {
             <ConfigProvider locale={fa_IR}>
               <div className="flex items-end">
                 <div>
-                  <span className="border py-[18px] rounded-tr-lg rounded-br-lg border-l-0">
+                  <span className="border py-[16.75px] rounded-tr-lg rounded-br-lg border-l-0">
                     <DatePicker
                       placeholder="تاریخ رفت"
                       className="font-body"
@@ -245,7 +245,7 @@ function SearchBox() {
                   </span>
                 </div>
                 <div>
-                  <span className="border py-[18px] rounded-tl-lg rounded-bl-lg">
+                  <span className="border py-[16.75px] rounded-tl-lg rounded-bl-lg">
                     <DatePicker
                       placeholder="تاریخ برگشت"
                       style={{

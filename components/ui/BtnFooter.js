@@ -4,7 +4,7 @@ function BtnFooter(props) {
   return (
     <div
       type="button"
-      className="border border-gray-200 h-[40px] mr-2 w-[110px] flex items-center pr-2 rounded-xl cursor-pointer hover__anime hover:scale-105"
+      className="border border-gray-200 h-[40px] mr-2 w-[120px] flex items-center px-2 rounded-xl cursor-pointer hover__anime hover:scale-105"
     >
       {props.image && (
         <Image
@@ -16,7 +16,7 @@ function BtnFooter(props) {
         />
       )}
       {props.icon && <BsDownload className="w-4 h-4 -mt-1" />}
-      <span className="text-sm font-body mr-1 text-[#4B5259] mt-0.5">
+      <span className="text-[14px] font-body mr-1 text-[#4B5259] mt-0.5">
         {props.title}
       </span>
     </div>
