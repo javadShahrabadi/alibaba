@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navigation from "./Navigation";
 function Layout(props) {
   return (
     <div>
@@ -35,7 +36,10 @@ function Layout(props) {
           type="text/css"
         ></link>
       </Head>
-      <main className="bg-[#f6f6f6]">{props.children}</main>
+      <main className="bg-[#f6f6f6]">
+        <Navigation />
+        {props.children}
+      </main>
     </div>
   );
 }

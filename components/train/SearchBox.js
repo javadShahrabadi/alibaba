@@ -116,26 +116,20 @@ function SearchBox() {
             <Option className="font-body" value="رفت و برگشت">
               رفت و برگشت
             </Option>
-            <Option className="font-body" value="چند مسیره">
-              چند مسیره
-            </Option>
           </Select>
         </div>
         <div className="mr-4">
           <Select
-            defaultValue="اکونومی"
-            style={{ width: 120 }}
+            defaultValue="دربست می خواهم"
+            style={{ width: 130 }}
             bordered={false}
             className="font-body text-[#4b5259] border border-gray-200 rounded-full"
           >
-            <Option className="font-body" value="اکونومی">
-              اکونومی
+            <Option className="font-body" value="دربست نمی خواهم">
+              دربست نمی خواهم
             </Option>
-            <Option className="font-body" value="بیزینس">
-              بیزینس
-            </Option>
-            <Option className="font-body" value="فرست کلاس">
-              فرست کلاس
+            <Option className="font-body" value="دربست می خواهم">
+              دربست می خواهم
             </Option>
           </Select>
         </div>

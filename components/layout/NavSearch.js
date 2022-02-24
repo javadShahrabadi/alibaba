@@ -1,31 +1,37 @@
-import { Badge, Space } from "antd";
+import Link from "next/link";
 import Image from "next/image";
 const NavSearch = () => {
   return (
     <nav className="max-w-6xl mx-auto h-[100px]  -mt-[100px] relative rounded-tr-lg rounded-tl-lg px-16 py-6 bg-white">
       <ul className="flex flex-row items-center justify-evenly">
-        <li className="flex flex-col items-center cursor-pointer">
-          <span>
-            <Image src="/icons/airplane.png" width={30} height={30} />
-          </span>
-          <p className="text-center font-body text-[#4b5259] mt-1">
-            پرواز داخلی
-          </p>
-        </li>
-        <li className="flex flex-col items-center cursor-pointer">
-          <span>
-            <Image src="/icons/airplane-global.png" width={30} height={30} />
-          </span>
-          <p className="text-center font-body text-[#4b5259] mt-1">
-            پرواز خارجی
-          </p>
-        </li>
-        <li className="flex flex-col items-center cursor-pointer">
-          <span>
-            <Image src="/icons/train.png" width={30} height={30} />
-          </span>
-          <p className="text-center font-body text-[#4b5259] mt-1">قطار</p>
-        </li>
+        <Link href="/">
+          <li className="flex flex-col items-center cursor-pointer">
+            <span>
+              <Image src="/icons/airplane.png" width={30} height={30} />
+            </span>
+            <p className="text-center font-body text-[#4b5259] mt-1">
+              پرواز داخلی
+            </p>
+          </li>
+        </Link>
+        <Link href="/iranout">
+          <li className="flex flex-col items-center cursor-pointer">
+            <span>
+              <Image src="/icons/airplane-global.png" width={30} height={30} />
+            </span>
+            <p className="text-center font-body text-[#4b5259] mt-1">
+              پرواز خارجی
+            </p>
+          </li>
+        </Link>
+        <Link href="/train">
+          <li className="flex flex-col items-center cursor-pointer">
+            <span>
+              <Image src="/icons/train.png" width={30} height={30} />
+            </span>
+            <p className="text-center font-body text-[#4b5259] mt-1">قطار</p>
+          </li>
+        </Link>
         <li className="flex flex-col items-center cursor-pointer">
           <span>
             <Image src="/icons/bus.png" width={30} height={30} />

@@ -1,20 +1,19 @@
 import Layout from "@/components/layout/Layout";
-import Navigation from "@/components/layout/Navigation";
 import Header from "@/components/layout/Header";
 import NavSearch from "@/components/layout/NavSearch";
-import SearchBox from "@/components/home-components/SearchBox";
+import SearchBox from "@/components/train/SearchBox";
 import Ads from "@/components/layout/Ads";
-import SliderContainer from "@/components/ui/SliderContainer";
 import DownloadCard from "@/components/layout/DownloadCard";
-import FaQ from "@/components/home-components/FaQ";
-import InfoSection from "@/components/home-components/InfoSection";
+import FaQ from "@/components/train/FaQ";
+import SliderContainer from "@/components/ui/SliderContainer";
+import InfoSection from "@/components/train/InfoSection";
 import Footer from "@/components/layout/Footer";
-function HomePage() {
+function TrainPage() {
   return (
     <Layout>
       <Header
-        imageSrc="https://cdn.alibaba.ir/h/desktop/assets/images/hero/hero-518e7e11.webp"
-        alt="iran-plane-header-pic"
+        imageSrc="https://cdn.alibaba.ir/h/desktop/assets/images/hero/hero-0ed822b4.webp"
+        alt="train-header-pic"
       />
       <NavSearch />
       <SearchBox />
@@ -27,4 +26,4 @@ function HomePage() {
     </Layout>
   );
 }
-export default HomePage;
+export default TrainPage;

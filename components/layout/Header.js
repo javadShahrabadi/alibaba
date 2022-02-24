@@ -1,9 +1,10 @@
-const Header = () => {
+const Header = (props) => {
+  const { imageSrc, alt } = props;
   return (
     <div>
       <img
-        src="https://cdn.alibaba.ir/h/desktop/assets/images/hero/hero-518e7e11.webp"
-        alt="header-plane-img"
+        src={props.imageSrc}
+        alt={props.alt}
         className="object-cover h-[356px]"
       />
     </div>

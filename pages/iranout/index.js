@@ -9,11 +9,13 @@ import FaQ from "@/components/iran-out/FaQ";
 import Footer from "@/components/layout/Footer";
 
 import InfoSection from "@/components/iran-out/InfoSection";
-function IranOut() {
+function IranOutPage() {
   return (
     <Layout>
-      <Navigation />
-      <Header />
+      <Header
+        imageSrc="https://cdn.alibaba.ir/h/desktop/assets/images/hero/hero-518e7e11.webp"
+        alt="iranout-header-pic"
+      />
       <NavSearch />
       <SearchBox />
       <SliderContainer />
@@ -24,4 +26,4 @@ function IranOut() {
     </Layout>
   );
 }
-export default IranOut;
+export default IranOutPage;

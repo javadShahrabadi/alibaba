@@ -33,3 +33,27 @@ body {
   box-shadow: inset 5px 0px 0px #c0c0c0;
   border-radius: 30px;
 }
+
+.box__shadow {
+  box-shadow: -2px -45px 112px -16px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: -2px -45px 112px -16px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: -2px -45px 112px -16px rgba(0, 0, 0, 0.75) inset;
+}
+.info__card_train-man {
+  background-image: url("https://cdn.alibaba.ir/h/desktop/assets/images/train03-3939bf8b.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+}
+.info__card_train-station {
+  background-image: url("https://cdn.alibaba.ir/h/desktop/assets/images/train02-bdc8c838.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+}
+.info__card_train-people {
+  background-image: url("https://cdn.alibaba.ir/h/desktop/assets/images/train03-3939bf8b.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+}
