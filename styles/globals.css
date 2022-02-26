@@ -57,3 +57,31 @@ body {
   background-position: 50%;
   height: 200px;
 }
+
+/* 4 column bg-image classes - train page */
+.info__card_train-koope {
+  background-image: url("https://cdn.alibaba.ir/h/desktop/assets/images/train04-18b35025.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+}
+
+.info__card_train_watching-man {
+  background-image: url("https://cdn.alibaba.ir/h/desktop/assets/images/train05-cb016de5.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+}
+
+.info__card_train_station_2 {
+  background-image: url("https://cdn.alibaba.ir/h/desktop/assets/images/train06-52f070a5.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+}
+.info__card_haram-reza {
+  background-image: url("https://cdn.alibaba.ir/h/desktop/assets/images/train07-190ff6bb.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+}
