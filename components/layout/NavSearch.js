@@ -32,12 +32,14 @@ const NavSearch = () => {
             <p className="text-center font-body text-[#4b5259] mt-1">قطار</p>
           </li>
         </Link>
-        <li className="flex flex-col items-center cursor-pointer">
-          <span>
-            <Image src="/icons/bus.png" width={30} height={30} />
-          </span>
-          <p className="text-center font-body text-[#4b5259] mt-1">اتوبوس</p>
-        </li>
+        <Link href="/bus-ticket">
+          <li className="flex flex-col items-center cursor-pointer">
+            <span>
+              <Image src="/icons/bus.png" width={30} height={30} />
+            </span>
+            <p className="text-center font-body text-[#4b5259] mt-1">اتوبوس</p>
+          </li>
+        </Link>
         <li className="flex flex-col items-center cursor-pointer">
           <span>
             <Image src="/icons/tour.png" width={30} height={30} />

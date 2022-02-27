@@ -2,7 +2,7 @@ import Accordian from "../ui/Accordian";
 function FaQ() {
   return (
     <div className="max-w-6xl mx-auto mt-10">
-      <h3 className="font-body text-[#4B5259] text-xl font-extrabold">
+      <h3 className="font-body text-[#4B5259] text-xl font-extrabold pr-2">
         پرسش های شما
       </h3>
 

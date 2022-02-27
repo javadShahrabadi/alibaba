@@ -12,6 +12,8 @@ body {
   font-family: "Vazir", sans-serif;
   overflow: overlay;
 }
+
+/* custom css styles */
 .slider__bg_img {
   background: #f6c84d
     url("https://cdn.alibaba.ir/h/desktop/assets/images/breaking-news/rtb-d1f5b225.png")
@@ -81,6 +83,41 @@ body {
 }
 .info__card_haram-reza {
   background-image: url("https://cdn.alibaba.ir/h/desktop/assets/images/train07-190ff6bb.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+}
+
+/* 3 column bg-image / Bus-Ticket page  */
+
+.info__card_ByBusTicket {
+  background-image: url("https://cdn.alibaba.ir/h/desktop/assets/images/bus01-6af3a02d.png");
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+}
+.info__card_ReserveTicket {
+  background-image: url("https://cdn.alibaba.ir/h/desktop/assets/images/bus02-c540fe0e.png");
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+}
+.info__card_TicketPrice {
+  background-image: url("https://cdn.alibaba.ir/h/desktop/assets/images/bus03-3bf1445d.png");
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+
+  /* 2 columns bg-image (type ticket => vip,normal) / bus page*/
+}
+.info__card_VipTicket {
+  background-image: url("https://cdn.alibaba.ir/h/desktop/assets/images/bus04-ce1c7fff.png");
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+}
+.info__card_NormalTicket {
+  background-image: url("https://cdn.alibaba.ir/h/desktop/assets/images/bus05-31fc902f.png");
   background-size: cover;
   background-position: 50%;
   height: 200px;

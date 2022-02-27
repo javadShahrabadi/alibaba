@@ -9,7 +9,7 @@ function InfoCard(props) {
         </h4>
       </div>
       <div className="px-5 mt-10">
-        <p className="font-body text-md font-semibold text-[#4B5259] text-justify">
+        <p className="font-body text-md font-semibold text-gray-500 text-justify">
           {props.description}
         </p>
       </div>
