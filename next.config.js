@@ -3,4 +3,7 @@ module.exports = {
   images: {
     domains: ["cdn.alibaba.ir", "jabamacdn.com"],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };

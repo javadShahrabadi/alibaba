@@ -48,6 +48,7 @@ function InfoSection() {
             src="https://cdn.alibaba.ir/h/desktop/assets/images/baggage/baggage@3x-bda919ec.webp"
             width={456}
             height={329}
+            alt="bag-pic"
           />
         </div>
       </div>

@@ -38,6 +38,7 @@ function DownloadCard() {
             src="https://cdn.alibaba.ir/h/desktop/assets/images/app-mobile/diagonal-ovals-0315dd86.png"
             width={686}
             height={318}
+            alt="download-card-banner"
           />
         </div>
         <div className="absolute top-0 left-44 pt-3.5">
