@@ -122,3 +122,25 @@ body {
   background-position: 50%;
   height: 200px;
 }
+
+.bg__nav-select {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 215, 0, 1) 100%
+  );
+}
+.bg__nav_anime {
+  animation: select_anime 1s ease-out;
+}
+/* animation of navSelect */
+
+@keyframes select_anime {
+  from {
+    transform: translateX(10rem);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

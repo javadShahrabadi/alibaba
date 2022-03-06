@@ -4,11 +4,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 
-<SliderCard
-  image="https://cdn.alibaba.ir/ostorage/tour-statics/Tour-Homepage-PriceGuarantee%20(4).jpg?w=96&h=96&q=75"
-  title="تور تهران به کیش"
-  price="29,252,000"
-/>;
 
 function SliderContainer() {
   return (

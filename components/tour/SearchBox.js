@@ -4,13 +4,17 @@ import fa_IR from "antd/lib/locale/fa_IR";
 import { CgArrowsExchange } from "react-icons/cg";
 import { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa";
-
+import { useContext } from "react";
+import NavSelectContext from "store/nav-select-context";
 function SearchBox() {
   const { Option } = Select;
   const [roomCounter, setRoomCounter] = useState(1);
   const [passengerCounter, setPassengerCounter] = useState(2);
   const [adultCounter, setAdultCounter] = useState(2);
   const [babyCounter, setBabyCounter] = useState(0);
+  const navCtx = useContext(NavSelectContext);
+  console.log(navCtx);
+
   //  counter handler
 
   const minusAdultHandler = () => {
@@ -108,7 +112,9 @@ function SearchBox() {
       </div>
     </div>
   );
+  // -----------------------
 
+  // -----------------------
   return (
     <form className="h-[200px] border-2 border-gray-100 shadow-sm rounded-br-lg rounded-bl-lg max-w-6xl mx-auto px-14  py-8 bg-white overflow-hidden">
       {/* bottom section */}

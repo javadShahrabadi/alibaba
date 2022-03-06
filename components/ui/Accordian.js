@@ -6,13 +6,12 @@ import {
 } from "react-icons/fa";
 import { useState } from "react";
 function Accordian(props) {
-  const { title, description } = props;
   const [hoverControl, setHoverControl] = useState(false);
   const [show, setShow] = useState(false);
 
   return (
     <div
-      className={`mt-3 max-w-6xl mx-auto bg-white rounded-xl shadow-sm border border-gray-100 px-10 cursor-pointer overflow-hidden py-5 hover__anime ${
+      className={`mt-3 max-w-6xl mx-auto bg-white rounded-xl shadow-sm border border-gray-100 px-5 cursor-pointer overflow-hidden py-5 hover__anime w-full ${
         show ? "h-[190px]" : "h-[70px]"
       }`}
       onMouseEnter={() => setHoverControl(true)}

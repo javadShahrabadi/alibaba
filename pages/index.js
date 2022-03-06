@@ -1,5 +1,4 @@
 import Layout from "@/components/layout/Layout";
-import Navigation from "@/components/layout/Navigation";
 import Header from "@/components/layout/Header";
 import NavSearch from "@/components/layout/NavSearch";
 import SearchBox from "@/components/home-components/SearchBox";
@@ -9,6 +8,9 @@ import DownloadCard from "@/components/layout/DownloadCard";
 import FaQ from "@/components/home-components/FaQ";
 import InfoSection from "@/components/home-components/InfoSection";
 import Footer from "@/components/layout/Footer";
+
+// ------------------------
+
 function HomePage() {
   return (
     <Layout>
